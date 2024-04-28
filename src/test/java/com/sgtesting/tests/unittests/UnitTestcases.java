@@ -88,4 +88,12 @@ public class UnitTestcases {
 	{
 		System.out.println("It is method14 unit testcase statement !!!!");
 	}
+
+
+	@Test(priority = 15)
+	public void method15()
+	{
+		System.out.println("It is method15 unit testcase statement !!!!");
+	}
+
 }
